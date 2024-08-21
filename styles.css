@@ -29,6 +29,11 @@ h1 {
 h2 {
   font-size: 64px;
 }
+.hero h1{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 20px;
+}
 
 p {
     color: rgb(212, 69, 248);
