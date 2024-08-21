@@ -7,6 +7,7 @@
 
 body {
   font-family: var(--default-font-family);
+  background-color: rgb(39, 33, 33);
 }
 
 h1,
@@ -15,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: white;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -30,30 +31,12 @@ h2 {
 }
 
 p {
+    color: rgb(212, 69, 248);
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
 
-.hero {
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 160px 20px;
-}
-
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-  color: #272142;
-}
-
-.hero h2 {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
-  line-height: 1.5;
-  font-size: 24px;
-}
 
 .about-section {
   padding: 160px 20px;
