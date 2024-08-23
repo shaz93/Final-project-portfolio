@@ -104,6 +104,38 @@ p {
 .project-desciption {
   padding: 120px 60px;
 }
+.navbar{
+  background-color:black;
+  color:white;
+}
+.nav-link{
+  color: white;
+}
+.navbar-toggler{
+  color: #66fcf1;
+}
+.navbar-brand {
+  color: #66fcf1;
+  font-family:"pacifico", cursive;
+}
+footer.contact-box {
+  background-color: #66fcf1;
+  padding: 30px 120px;
+  border-radius: 12px;
+}
+footer.email-links{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer.social-links{
+  margin: 0 20px;
+  background-color: white;
+}
+footer.email-link:hover {
+  color:red;
+}
+
 
 @media (max-width: 900px) {
   h1 {
@@ -128,18 +160,4 @@ p {
     padding: 0;
     text-align: center;
   }
-}
-.navbar{
-  background-color:black;
-  color:white;
-}
-.nav-link{
-  color: white;
-}
-.navbar-toggler{
-  color: #66fcf1;
-}
-.navbar-brand {
-  color: #66fcf1;
-  font-family:"pacifico", cursive;
 }
