@@ -118,22 +118,48 @@ p {
   color: #66fcf1;
   font-family:"pacifico", cursive;
 }
-footer.contact-box {
-  background-color: #66fcf1;
-  padding: 30px 120px;
-  border-radius: 12px;
+
+footer {
+  margin: 60px 0;
 }
-footer.email-links{
+
+footer .contact-box {
+  background: #66fcf1;
+  padding: 30px 120px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+footer h4{
+  color: black;
+}
+
+footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
 }
-footer.social-links{
-  margin: 0 20px;
-  background-color: white;
+
+footer .email-link:hover {
+  color: var(--branding-color);
 }
-footer.email-link:hover {
-  color:red;
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 
 
