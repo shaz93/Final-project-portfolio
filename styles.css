@@ -129,3 +129,17 @@ p {
     text-align: center;
   }
 }
+.navbar{
+  background-color:black;
+  color:white;
+}
+.nav-link{
+  color: white;
+}
+.navbar-toggler{
+  color: #66fcf1;
+}
+.navbar-brand {
+  color: #66fcf1;
+  font-family:"pacifico", cursive;
+}
