@@ -152,17 +152,29 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: black;
-  background:white;
+  color:white;
+  background-color: black;
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
 
+
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+.skills{
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.copy{
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 
