@@ -46,7 +46,7 @@ p {
 
 
 .about-section {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .about-section h1 {
@@ -63,7 +63,7 @@ p {
   margin: 30px;
 }
 .content-container{
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 .content h1{
     font-size: 28px;
@@ -102,7 +102,7 @@ p {
 }
 
 .project-desciption {
-  padding: 120px 60px;
+  padding: 60px 60px;
 }
 .navbar{
   background-color:black;
