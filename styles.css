@@ -7,7 +7,7 @@
 
 body {
   font-family: var(--default-font-family);
-  background-color: rgb(39, 33, 33);
+  background-color: rgb(39, 34, 34);
 }
 
 h1,
@@ -112,11 +112,14 @@ p {
   color: white;
 }
 .navbar-toggler{
-  color: #66fcf1;
+  color:#66fcf1;
 }
 .navbar-brand {
   color: #66fcf1;
   font-family:"pacifico", cursive;
+}
+.navbar-toggler-icon{
+  background-color:#66fcf1;
 }
 
 footer {
